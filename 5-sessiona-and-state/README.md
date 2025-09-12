@@ -31,7 +31,7 @@ The example uses a simple question-answering agent that responds based on stored
 │
 └── question_answering_agent/      # Agent implementation
     ├── __init__.py
-    └── agent.py                   # Agent definition with template variables
+    └── agent.py                   # Agent definition with template variables (cmd to run is: adk web)
 ```
 
 ## Getting Started
