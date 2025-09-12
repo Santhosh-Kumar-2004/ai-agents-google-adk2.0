@@ -2,7 +2,7 @@
 
 This example demonstrates how to implement structured outputs in the Agent Development Kit (ADK) using Pydantic models. The main agent in this example, `email_generator`, uses the `output_schema` parameter to ensure its responses conform to a specific structured format.
 
-## What are Structured Outputs?
+## What are Structured Outputs? WHat are they?
 
 ADK allows you to define structured data formats for agent inputs and outputs using Pydantic models:
 
