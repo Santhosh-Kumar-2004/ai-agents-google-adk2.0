@@ -1,6 +1,6 @@
 from google.adk.agents import Agent
 
-# Create the root agent
+# Create the root agent inside question agent
 question_answering_agent = Agent(
     name="question_answering_agent",
     model="gemini-2.0-flash",
