@@ -13,7 +13,7 @@ load_dotenv()
 session_service_stateful = InMemorySessionService()
 
 initial_state = {
-    "user_name": "Brandon Hancock",
+    "user_name": "Santhosh Kumar",
     "user_preferences": """
         I like to play Pickleball, Disc Golf, and Tennis.
         My favorite food is Mexican.
@@ -23,7 +23,7 @@ initial_state = {
 }
 
 # Create a NEW session
-APP_NAME = "Brandon Bot"
+APP_NAME = "Santhosh's Bot"
 USER_ID = "brandon_hancock"
 SESSION_ID = str(uuid.uuid4())
 stateful_session = session_service_stateful.create_session(
