@@ -1,0 +1,47 @@
+# Python virtual environment
+# A common convention is to name the virtual environment `venv`, `.venv`, or `env`.
+venv/
+.venv/
+env/
+
+# Sensitive environment variables
+# Always ignore files that contain sensitive information like API keys and database credentials.
+.env
+.env.*
+.flaskenv
+
+# Compiled Python files
+# Compiled bytecode is specific to your system and should not be committed.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE and editor files
+# These files store user-specific settings and configurations.
+.vscode/        # VSCode settings
+.idea/          # JetBrains IDE settings
+*.sublime-project
+*.sublime-workspace
+
+# Packaging and distribution
+# Ignore build artifacts created by packaging tools.
+dist/
+build/
+*.egg-info/
+
+# Testing and coverage
+# Ignore output files from testing and coverage tools.
+.tox/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Operating system files
+# Ignore system-generated files that clutter the repository.
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini     # Windows
+
+# Log files
+# Logs are for debugging and should not be version controlled.
+*.log
