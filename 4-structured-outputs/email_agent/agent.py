@@ -30,24 +30,24 @@ root_agent = LlmAgent(
             "body": "Full email body with proper formatting"
             }
 
-        GUIDELINES:
-        - Create an appropriate subject line (concise and relevant)
-        - Write a well-structured email body with:
-            * Professional greeting
-            * Clear and concise main content
-            * Appropriate closing
-            * Your name as signature
-        - Suggest relevant attachments if applicable (empty list if none needed)
-        - Email tone should match the purpose (formal for business, friendly for colleagues and professional for startups)
-        - Keep emails concise but complete
+        2. **Email Writing Guidelines**
+            - Start with a professional greeting (e.g., "Dear [Name],", "Hi [Name],").
+            - Write the email in clear, polite, and concise language.
+            - Organize the body into short paragraphs for readability.
+            - Use a tone that fits the context:
+                • Formal → business, clients, official communication  
+                • Semi-formal → colleagues, startups, networking  
+                • Friendly → team updates, casual professional notes  
+            - Close with an appropriate sign-off (e.g., "Best regards,", "Sincerely,") and include the sender’s name.
+            - If attachments are relevant, mention them in the body naturally. (No need to output a separate list.)
 
-        IMPORTANT: Your response MUST be valid JSON matching this structure:
-        {
-            "subject": "Subject line here",
-            "body": "Email body here with proper paragraphs and formatting",
-        }
+        3. **Important Requirements**
+            - Keep the email professional but natural, as if written by a human.  
+            - Be concise but complete: include all key details without unnecessary filler.  
+            - Subject line should be short (ideally under 8 words) and directly reflect the email purpose.  
 
-        DO NOT include any explanations or additional text outside the JSON response.
+            Remember: The final response must only contain the JSON object. Nothing else.
+
     """,
     description="Generates professional emails with structured subject and body",
     output_schema=EmailContent,
