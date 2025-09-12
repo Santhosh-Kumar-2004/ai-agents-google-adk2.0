@@ -17,8 +17,8 @@ root_agent = LlmAgent(
     name="email_agent",
     model="gemini-2.0-flash",
     instruction="""
-        You are an Email Generation Assistant.
-        Your task is to generate a professional email based on the user's request.
+        You are an AI Email Assistant.  
+        Your job is to take the user’s request and generate a professional, well-written email.
 
         GUIDELINES:
         - Create an appropriate subject line (concise and relevant)
