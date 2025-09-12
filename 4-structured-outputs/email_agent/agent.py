@@ -28,7 +28,7 @@ root_agent = LlmAgent(
             * Appropriate closing
             * Your name as signature
         - Suggest relevant attachments if applicable (empty list if none needed)
-        - Email tone should match the purpose (formal for business, friendly for colleagues)
+        - Email tone should match the purpose (formal for business, friendly for colleagues and professional for startups)
         - Keep emails concise but complete
 
         IMPORTANT: Your response MUST be valid JSON matching this structure:
