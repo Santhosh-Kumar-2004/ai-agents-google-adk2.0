@@ -34,6 +34,7 @@ stateful_session = session_service_stateful.create_session(
 )
 print("CREATED NEW SESSION:")
 print(f"\tSession ID: {SESSION_ID}")
+print(f"User_name is: {stateful_session.state['user_name']}")
 
 runner = Runner(
     agent=question_answering_agent,
