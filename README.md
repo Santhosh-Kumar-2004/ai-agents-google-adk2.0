@@ -41,7 +41,8 @@ Each example folder contains a `.env.example` file. For each project you want to
 2. Rename `.env.example` to `.env` 
 3. Open the `.env` file and replace the placeholder with your API key:
    ```
-   GOOGLE_API_KEY=your_api_key_here
+   dont try committ it
+   GOOGLE_API_KEY=your_api_key_here 
    ```
 
 You'll need to repeat this for each example project you want to run.
