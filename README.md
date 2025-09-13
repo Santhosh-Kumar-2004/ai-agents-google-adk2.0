@@ -9,7 +9,7 @@ This repository contains examples for learning Google's Agent Development Kit (A
 You only need to create one virtual environment for all examples in this course. Follow these steps to set it up:
 
 ```bash
-# Create virtual environment in the root directory
+# Create virtual environment in the root directory and make the workspace 
 python -m venv .venv
 
 # Activate (each new terminal)
