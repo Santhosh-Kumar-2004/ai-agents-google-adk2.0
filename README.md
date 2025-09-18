@@ -1,6 +1,6 @@
 # Agent Development Kit (ADK) Crash Course
 
-This repository contains examples for learning Google's Agent Development Kit (ADK), a powerful framework for building LLM-powered agents. I used here the Google gemini model. Specifically the flash types model
+This repository contains examples for learning Google's Agent Development Kit (ADK), a powerful framework for building LLM-powered agents. I used here the Google gemini model. Specifically the flash types model which is free and easy to use
 
 ## Getting Started
 
