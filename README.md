@@ -64,7 +64,7 @@ Example of using LiteLLM to abstract away LLM provider details and easily switch
 Learn how to use Pydantic models with `output_schema` to ensure consistent, structured responses from your agents.
 
 ### 5. Sessions and State
-Understand how to maintain state and memory across multiple interactions using sessions.
+Understand how to maintain state and memory across multiple interactions using sessions. Currently working on this state
 
 ### 6. Persistent Storage
 Learn techniques for storing agent data persistently across sessions and application restarts.
